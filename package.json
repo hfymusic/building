@@ -1,0 +1,35 @@
+{
+  "name": "building",
+  "version": "1.0.0",
+  "description": "本地构建",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp",
+    "gulp-watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hfymusic/building.git"
+  },
+  "keywords": [
+    "webpack",
+    "babel",
+    "gulp",
+    "react",
+    "es6"
+  ],
+  "author": "huangfy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hfymusic/building/issues"
+  },
+  "homepage": "https://github.com/hfymusic/building#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-less": "^3.5.0"
+  }
+}
